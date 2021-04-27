@@ -4,5 +4,76 @@
 }
 
 h1{
-    ;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 30px;
+}
+
+.box{
+    background-color: cadetblue;
+    border: 3px solid gray;
+    height: 175px;
+    
+}
+
+p {
+    padding-top: 20px;
+
+}
+
+.row{
+    width: 100%;
+}
+
+.sectionTitle{
+    float: right;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+}
+
+.title1{
+    background-color: blueviolet;
+}
+.title2{
+    background-color: gold;
+}
+.title3{
+    background-color: hotpink;
+}
+
+/* For PC device */
+@media (min-width: 992px) {
+    
+
+    .col-ld-4{
+        width: 33.33%;
+        float: left;
+    }
+
+  
+}
+
+/* For Tab device*/
+@media (min-width:768px) and (max-width:991px){
+    .box{
+        background-color: green;
+        
+    }
+    .col-md-4{
+        width: 50%;
+        float: left;
+    }
+    .col-md-12{
+        width: 100%;
+        clear: both;
+    }
+}
+
+/*For Mobile Device */
+@media (max-width:767px){
+    .box{
+        background-color: crimson;
+    }
+    
 }
