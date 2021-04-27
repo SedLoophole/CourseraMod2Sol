@@ -5,41 +5,31 @@
 
 h1{
     text-align: center;
-    
-    margin-bottom: 100px;
-    font-size: 1.75em;
+    border: 1px solid gray;
+    margin: 30px;
 }
 
 .box{
     background-color: cadetblue;
-    border: 3px solid black;
-    height: 200px;
-    padding: 10px;
-    position: relative;
-    margin: 0px 0px 30px 0px;
+    border: 3px solid gray;
+    height: 175px;
     
 }
 
 p {
     padding-top: 20px;
-    
+
 }
 
 .row{
     width: 100%;
-    padding: 20px;
-    overflow: auto;
-    
 }
 
 .sectionTitle{
-    position: absolute;
-    right: 0;
-    top: 0;
+    float: right;
     padding: 5px;
-    width: 30%;
+    width: 20%;
     text-align: center;
-    font-size: 1.25em;
 }
 
 .title1{
@@ -57,36 +47,38 @@ p {
     
 
     .col-ld-4{
-        width: 31.33%;
+        width: 33.33%;
         float: left;
-        margin: 1%;
     }
-    
+
   
 }
 
 /* For Tab device*/
 @media (min-width:768px) and (max-width:991px){
-   
+    .box{
+        background-color: green;
+        
+    }
     .col-md-4{
-        width: 48%;
+        width: 50%;
         float: left;
+<<<<<<< HEAD
         margin: 1%;
         
+=======
+>>>>>>> parent of 45b10b4 (Update style.css)
     }
     .col-md-12{
-        width: 98%;
+        width: 100%;
         clear: both;
-        margin: 1%;
-        
     }
-    
 }
 
 /*For Mobile Device */
 @media (max-width:767px){
-     .box{
-         margin-top: 1%;
-         margin-bottom: 30px;
-     }
+    .box{
+        background-color: crimson;
+    }
+    
 }
